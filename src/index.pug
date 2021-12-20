@@ -1,0 +1,13 @@
+---
+layout: default.njk
+title: Testing index page
+---
+
+//- b This is the index page
+//- p these are some words in a p tag
+
+div(class="fixed inset-0 flex justify-center items-center")
+    div
+      span(class="text-change") Good design<br/>
+      span(class="change") is<br/>as little design<br/>as possible<br/>      
+      span(x-data="{message:'🤖 Hello World 🤓'}" x-text="message")
