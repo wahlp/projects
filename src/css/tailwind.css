@@ -2,8 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .change {
-    color: transparent;
-  }
+body {
+  @apply overflow-x-hidden
+}
+
+.links {
+  @apply text-blue-600 hover:text-blue-800 dark:hover:text-blue-400
+}
+
+.checked {
+  @apply bg-primary-600 !important
+}
+
+.highlight-project {
+  @apply bg-primary-400
+}
+
+.hide-project {
+  @apply hidden
 }

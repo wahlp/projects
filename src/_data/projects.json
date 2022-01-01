@@ -1,0 +1,95 @@
+[
+    {
+        "name": "this site :)",
+        "desc": "An interactive catalogue of my ideas and projects.",
+        "links": [{
+            "name": "github", 
+            "url": "https://github.com/wahlp/"
+        }],
+        "tech": [
+            "Eleventy", "Tailwind CSS", "Alpine.js"
+        ]
+    },
+    {
+        "name": "tf2 stalker bot",
+        "desc": "A Discord bot to track players in TF2. Makes queries to the Steam API and Source Servers to check if certain players are in-game.",
+        "links": [],
+        "tech": [
+            "Python", "MongoDB", "Heroku"
+        ]
+    },
+    {
+        "name": "tf2 stalker site (working title)",
+        "desc": "A complementary website to browse the data collected by tf2 stalker bot, since Discord messages are a very limiting way to display data.",
+        "links": [],
+        "tech": [
+            "React", "Next.js", "Express", "MongoDB"
+        ]
+    },
+    {
+        "name": "ee4717 project",
+        "desc": "A fullstack app created for EE4717 Web Application Design. Worth 10% of the overall grade for a live demonstration over Zoom, even though 1/4 of the 50% final exam (12.5%) was to write out a complete website's HTML and CSS by hand.",
+        "links": [{
+            "name": "github", 
+            "url": "https://github.com/wahlp/ee4717-project"
+        }],
+        "tech": [
+            "Vanilla CSS", "JavaScript", "PHP", "MySQL"
+        ]
+    },
+    {
+        "name": "r experiments",
+        "desc": "My first forays into the R language by analysing datasets from RateYourMusic and tf2-stalker-bot. Not very polished but I just enjoy playing with data I've generated myself.",
+        "links": [{
+            "name": "github", 
+            "url": "https://github.com/wahlp/r-experiments"
+        }, {
+            "name": "music",
+            "url": "https://wahlp.github.io/r-experiments/music/"
+        }, {
+            "name": "tf2",
+            "url": "https://wahlp.github.io/r-experiments/tf2/"
+        }],
+        "tech": [
+            "R"
+        ]
+    },
+    {
+        "name": "futoshiki solver",
+        "desc": "A PyGame implementation of futoshiki, with the feature of automatically solving it.",
+        "links": [{
+            "name": "github", 
+            "url": "https://github.com/wahlp/futoshiki-solver"
+        }],
+        "tech": [
+            "Python"
+        ]
+    },
+    {
+        "name": "musicbee keystroke visualizer",
+        "desc": "A MusicBee plugin to act like keycaster, and also to teach myself a bit of C# again.",
+        "links": [{
+            "name": "github", 
+            "url": "https://github.com/wahlp/MusicBee-Keystroke-Visualizer"
+        }],
+        "tech": [
+            "C#"
+        ]
+    },
+    {
+        "name": "nobodyweirdlike.me",
+        "desc": "My first fullstack project ever. A website to rank songs by the Red Hot Chili Peppers. Used jQuery because it was 2017.",
+        "links": [
+            {
+                "name": "github", 
+                "url": "https://github.com/wahlp/nobodyweirdlike.me"
+            }, {
+                "name": "reddit post",
+                "url": "https://www.reddit.com/r/RedHotChiliPeppers/comments/5yg5n2/i_made_nobodyweirdlikeme_a_website_to_rank_all/"
+            }
+        ],
+        "tech": [
+            "Vanilla CSS", "jQuery", "Express", "MySQL"
+        ]
+    }
+]
