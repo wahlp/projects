@@ -3,7 +3,7 @@ layout: default.njk
 title: This is the index page
 ---
 
-div(class="space-y-16 py-4 px-10 lg:px-40 lg:w-screen min-h-screen dark:bg-gray-900 dark:text-white")
+div(class="space-y-24 py-4 px-10 lg:px-40 lg:w-screen min-h-screen dark:bg-gray-900 dark:text-white")
     //- buttons n stuff
     div
         div(
@@ -18,14 +18,14 @@ div(class="space-y-16 py-4 px-10 lg:px-40 lg:w-screen min-h-screen dark:bg-gray-
         div(class="text-center")
             div(class="mb-16 space-y-3")
                 h2(class="font-bold text-3xl") wahlp
-                p fullstack developer, anti-sweat gamer, average music enjoyer
+                p fullstack developer, casual gamer, average music enjoyer
             div(class="max-w-lg space-y-3") 
                 h2(class="font-bold text-3xl") what's this
                 p(class="text-justify") 
                     | i've been interested in recording my ideas and projects for a while, 
                     | but with nowhere to write about them. this site serves as an outlet to explain and document
-                    | the work i've put out. i'm proud of everything listed here. even if it was small and 
-                    | relatively insignificant, it was a learning experience.
+                    | the work i've put out. i'm proud of everything listed here, even if it was small and 
+                    | relatively insignificant. all of them were opportunities to learn something new.
 
     //- language/framework selections
     div(
@@ -46,8 +46,8 @@ div(class="space-y-16 py-4 px-10 lg:px-40 lg:w-screen min-h-screen dark:bg-gray-
     )
         div(id="tech")
             div(class="text-xl")
-                span(class="mr-2") languages and frameworks and other technologies i've used (click to filter)
-            div(class="grid gap-4 xl:grid-cols-8 lg:grid-cols-6 md:grid-cols-4 grid-cols-2 mb-12 border-t-4 pt-2")
+                span languages and frameworks and other technologies i've used (click to filter)
+            div(class="grid gap-4 xl:grid-cols-8 lg:grid-cols-6 md:grid-cols-4 grid-cols-2 mb-24 border-t-2 pt-2")
                 //- display all unique techs across all projects
                 - var tech_array = projects.map(proj => proj.tech)
                 - tech_array = [].concat(...tech_array).sort(/*case insensitive*/(a,b) => a.localeCompare(b)).filter(/* unique values */(v, i, a) => a.indexOf(v) === i)
@@ -57,7 +57,6 @@ div(class="space-y-16 py-4 px-10 lg:px-40 lg:w-screen min-h-screen dark:bg-gray-
                         x-on:click="toggle($event)"
                         data-tech=tech
                     )=tech
-        //- div(x-text="JSON.stringify(filters)")
 
         //- list of projects
         div(id="projects")
@@ -77,7 +76,7 @@ div(class="space-y-16 py-4 px-10 lg:px-40 lg:w-screen min-h-screen dark:bg-gray-
                             span(class="items-center")
                                 each link in project.links
                                     if (!first_time)
-                                        //- james franco meme
+                                        //- add separators
                                         |  //  
                                     a(href=link.url target='_blank' class="links")= link.name
                                     - first_time = false

@@ -49,6 +49,9 @@
         }, {
             "name": "tf2",
             "url": "https://wahlp.github.io/r-experiments/tf2/"
+        }, {
+            "name": "my rateyourmusic",
+            "url": "https://rateyourmusic.com/~wahlp"
         }],
         "tech": [
             "R"
