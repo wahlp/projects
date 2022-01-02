@@ -53,7 +53,7 @@ div(class="space-y-16 py-4 px-10 lg:px-40 lg:w-screen min-h-screen dark:bg-gray-
                 - tech_array = [].concat(...tech_array).sort(/*case insensitive*/(a,b) => a.localeCompare(b)).filter(/* unique values */(v, i, a) => a.indexOf(v) === i)
                 each tech in tech_array
                     div(
-                        class="rounded-md px-3 py-1 text-white hover:cursor-pointer select-none bg-primary-400 hover:bg-primary-600 dark:bg-primary-800 dark:hover:bg-primary-600"
+                        class="rounded-md px-3 py-1 text-white hover:cursor-pointer select-none bg-primary-400 sm:hover:bg-primary-600 dark:bg-primary-800 dark:sm:hover:bg-primary-600"
                         x-on:click="toggle($event)"
                         data-tech=tech
                     )=tech
