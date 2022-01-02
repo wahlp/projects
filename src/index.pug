@@ -3,7 +3,7 @@ layout: default.njk
 title: This is the index page
 ---
 
-div(class="space-y-16 py-4 px-10 lg:px-40 lg:w-screen min-h-screen dark:bg-gray-900 dark:text-white")
+div(class="space-y-24 py-4 px-10 lg:px-40 lg:w-screen min-h-screen dark:bg-gray-900 dark:text-white")
     //- buttons n stuff
     div
         div(
@@ -46,8 +46,8 @@ div(class="space-y-16 py-4 px-10 lg:px-40 lg:w-screen min-h-screen dark:bg-gray-
     )
         div(id="tech")
             div(class="text-xl")
-                span(class="mr-2") languages and frameworks and other technologies i've used (click to filter)
-            div(class="grid gap-4 xl:grid-cols-8 lg:grid-cols-6 md:grid-cols-4 grid-cols-2 mb-12 border-t-4 pt-2")
+                span languages and frameworks and other technologies i've used (click to filter)
+            div(class="grid gap-4 xl:grid-cols-8 lg:grid-cols-6 md:grid-cols-4 grid-cols-2 mb-24 border-t-2 pt-2")
                 //- display all unique techs across all projects
                 - var tech_array = projects.map(proj => proj.tech)
                 - tech_array = [].concat(...tech_array).sort(/*case insensitive*/(a,b) => a.localeCompare(b)).filter(/* unique values */(v, i, a) => a.indexOf(v) === i)
