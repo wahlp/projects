@@ -4,7 +4,7 @@
         "desc": "An interactive catalogue of my ideas and projects.",
         "links": [{
             "name": "github", 
-            "url": "https://github.com/wahlp/"
+            "url": "https://github.com/wahlp/projects"
         }],
         "tech": [
             "Eleventy", "Tailwind CSS", "Alpine.js"
@@ -12,7 +12,7 @@
     },
     {
         "name": "tf2 stalker bot",
-        "desc": "A Discord bot to track players in TF2. Makes queries to the Steam API and Source Servers to check if certain players are in-game.",
+        "desc": "A Discord bot to track players in TF2. Queries the Steam API and Source Servers to check if certain players are in-game.",
         "links": [],
         "tech": [
             "Python", "MongoDB", "Heroku"
@@ -28,7 +28,7 @@
     },
     {
         "name": "ee4717 project",
-        "desc": "A fullstack app created for EE4717 Web Application Design. Worth 10% of the overall grade for a live demonstration over Zoom, even though 1/4 of the 50% final exam (12.5%) was to write out a complete website's HTML and CSS by hand.",
+        "desc": "A fullstack app created for EE4717 Web Application Design. Worth 10% of the overall grade for a live demonstration over Zoom.",
         "links": [{
             "name": "github", 
             "url": "https://github.com/wahlp/ee4717-project"
@@ -67,7 +67,7 @@
     },
     {
         "name": "musicbee keystroke visualizer",
-        "desc": "A MusicBee plugin to act like keycaster, and also to teach myself a bit of C# again.",
+        "desc": "A MusicBee plugin to act like keycaster, and also to teach myself a bit of C#.",
         "links": [{
             "name": "github", 
             "url": "https://github.com/wahlp/MusicBee-Keystroke-Visualizer"
