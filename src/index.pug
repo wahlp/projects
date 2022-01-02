@@ -57,7 +57,6 @@ div(class="space-y-16 py-4 px-10 lg:px-40 lg:w-screen min-h-screen dark:bg-gray-
                         x-on:click="toggle($event)"
                         data-tech=tech
                     )=tech
-        //- div(x-text="JSON.stringify(filters)")
 
         //- list of projects
         div(id="projects")
@@ -77,7 +76,7 @@ div(class="space-y-16 py-4 px-10 lg:px-40 lg:w-screen min-h-screen dark:bg-gray-
                             span(class="items-center")
                                 each link in project.links
                                     if (!first_time)
-                                        //- james franco meme
+                                        //- add separators
                                         |  //  
                                     a(href=link.url target='_blank' class="links")= link.name
                                     - first_time = false
